@@ -1,0 +1,90 @@
+data/
+build/
+
+# Node
+logs
+*.log
+npm-debug.log*
+pids
+*.pid
+*.seed
+lib-cov
+.grunt
+.lock-wscript
+build/Release
+node_modules
+.npm
+.node_repl_history
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+*.class
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Logs and database
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# Python
+*.egg
+*.pyc
+env/
+dist/
+cma_es.egg-info/
+
+# Misc
+*~
+.idea
+.iml
+*.sublime-workspace
+
+# Tensorflow
+checkpoints/
+.ipynb_checkpoints
+summary_log/
+checkpoint
+*.ckpt.*
+saved_models/
+saved_models_*/
+hyperparameters/
+hyperband_logs/
